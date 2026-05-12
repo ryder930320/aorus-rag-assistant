@@ -1,19 +1,26 @@
-產品型號: GIGABYTE AORUS MASTER 16 AM6H
-作業系統: Windows 11 Pro 或 Windows 11 Home
-處理器 (CPU): Intel Core Ultra 9 Processor 275HX (36MB cache, 最高 5.4 GHz, 24 核心, 24 執行緒)
-記憶體 (RAM): 支援最高 64GB DDR5 5600MHz (具備 2 個 SO-DIMM 插槽可擴充)
-儲存空間 (SSD): 1x PCIe Gen5 M.2 插槽與 1x PCIe Gen4x4 M.2 插槽, 最高支援 4TB PCIe NVMe M.2 SSD
-螢幕顯示 (Display): 16吋 16:10 OLED WQXGA (2560x1600) 240Hz, 1ms反應時間, 100% DCI-P3 廣色域, 500尼特峰值亮度, 1,000,000:1 對比度
-螢幕認證: VESA DisplayHDR True Black 500, Pantone 認證, TÜV Rheinland 低藍光, 支援 Dolby Vision
-散熱系統 (Cooling): WINDFORCE Infinity EX 散熱系統, 具備 230 瓦解熱能力, 支援 0dB 靜音模式
-電池容量 (Battery): 99Wh 超大容量電池
-無線通訊: 支援最新 Wi-Fi 7 無線技術與 Bluetooth v5.4
-I/O 介面 (Type-C): 1x Type-C 支援 Thunderbolt 5 (USB4, DP 2.1, PD 3.0), 1x Type-C 支援 Thunderbolt 4 (USB4, DP 1.4, PD 3.0)
-I/O 介面 (其他): 1x RJ-45 有線網路, 1x HDMI 2.1, 1x Type-A (USB 3.2 Gen2), 1x MicroSD (UHS-II) 讀卡機
-視訊鏡頭 (Webcam): FHD (1080p) IR 視訊鏡頭, 支援 Windows Hello 臉部辨識登入
-音效系統 (Audio): 雙通道 Smart AMP 智能擴大系統, 支援 Dolby Atmos 杜比全景聲
-鍵盤 (Keyboard): 3 區 RGB 背光鍵盤, 1.7mm 鍵程, 支援 N-Key 防鬼鍵與 Icy Touch 冰感操控區
-獨家 AI 功能: 內建 GIGABYTE GiMATE 智慧 AI 夥伴, 具備實體熱鍵「Press and Speak」支援語音指令
+### 【產品系列通用資訊：AORUS MASTER 16 AM6H 系列】
+- 產品名稱：GIGABYTE AORUS MASTER 16 AM6H 系列筆記型電腦[cite: 1]。
+- 核心處理器：全系列搭載 Intel® Core™ Ultra 9 275HX[cite: 1]。
+- 散熱系統：搭載 WINDFORCE Infinity 散熱技術，配備雙強力風扇與多重導熱管，確保極致效能輸出[cite: 1]。
+- 螢幕規格：本筆電配備 16 吋 240Hz OLED 專業螢幕，不支援觸控功能。[cite: 1]。
+- 顯示卡總覽：本系列包含 BZH (RTX 5090)、BYH (RTX 5080)、BXH (RTX 5070 Ti) 三種規格[cite: 1]。
+- 顯示記憶體：BZH 為 24GB、BYH 為 16GB、BXH 為 12GB[cite: 1]。
+- 記憶體與儲存：最高支援 64GB DDR5 5600MHz 與 4TB PCIe Gen5 SSD[cite: 1]。
+- 連接埠功能：右側有 MicroSD 插槽，支援 SD 讀卡機功能[cite: 1]。
+- 視訊鏡頭：1080p IR 鏡頭，支援 Windows Hello 臉部辨識[cite: 1]。
+
+### 【通訊與影像功能：視訊鏡頭與網路】
+- 視訊鏡頭規格：配備 FHD (1080p) IR 視訊鏡頭，內建陣列麥克風 (Build-in array Microphone)[cite: 1]。
+- 臉部辨識功能：視訊鏡頭支援 Windows Hello 臉部辨識登入 (Face Authentication)[cite: 1]。
+- 安全裝置：具備 Firmware-based TPM，並支援 Intel® Platform Trust Technology (Intel® PTT)[cite: 1]。
+- 無線通訊：支援最新的 WIFI 7 (802.11be 2x2) 與藍牙 Bluetooth v5.4[cite: 1]。
+- 音效系統：配備 4x 2W 揚聲器，支援 Dolby Atmos® 與 Smart Amp 技術[cite: 1]。
+
+### 【I/O 連接埠配置：左右側功能區分】
+- 左側連接埠 (Left Side)：包含 1x DC-in 電源孔、1x RJ-45 網路孔、1x HDMI 2.1、1x USB 3.2 Gen2 (Type-A)、1x Thunderbolt™ 5 (Type-C)[cite: 1]。
+- 右側連接埠 (Right Side)：包含 1x USB 3.2 Gen2 (Type-A)、1x Thunderbolt™ 4 (Type-C)、1x MicroSD (UHS-II) 讀卡機、1x 音源接孔[cite: 1]。
+- 讀卡機支援：這台筆電右側具備 MicroSD (UHS-II) 插槽，因此「具備 SD 讀卡機功能」[cite: 1]。
+
 ### 【型號專屬差異：顯示晶片補丁】
 - 【型號 BZH 專屬規格】：搭載 NVIDIA® GeForce RTX™ 5090 顯示卡，顯示記憶體 24GB GDDR7，功耗 175W，AI Boost 時脈 1797 MHz[cite: 1]。
 - 【型號 BYH 專屬規格】：搭載 NVIDIA® GeForce RTX™ 5080 顯示卡，顯示記憶體 16GB GDDR7，功耗 175W，AI Boost 時脈 1902 MHz[cite: 1]。
