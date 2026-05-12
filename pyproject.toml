@@ -1,0 +1,13 @@
+[project]
+name = "aorus-rag-task"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "huggingface-hub>=1.14.0",
+    "numpy>=2.2.6",
+    "nvidia-ml-py>=13.595.45",
+    "pynvml>=13.0.1",
+    "sentence-transformers>=5.4.1",
+]
