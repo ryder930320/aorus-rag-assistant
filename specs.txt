@@ -1,7 +1,6 @@
 產品型號: GIGABYTE AORUS MASTER 16 AM6H
 作業系統: Windows 11 Pro 或 Windows 11 Home
 處理器 (CPU): Intel Core Ultra 9 Processor 275HX (36MB cache, 最高 5.4 GHz, 24 核心, 24 執行緒)
-顯示卡 (GPU): NVIDIA GeForce RTX 5090 筆記型電腦 GPU 24GB GDDR7, 最高 175W TGP (包含 Dynamic Boost), 支援 NVIDIA Advanced Optimus 與 G-SYNC
 記憶體 (RAM): 支援最高 64GB DDR5 5600MHz (具備 2 個 SO-DIMM 插槽可擴充)
 儲存空間 (SSD): 1x PCIe Gen5 M.2 插槽與 1x PCIe Gen4x4 M.2 插槽, 最高支援 4TB PCIe NVMe M.2 SSD
 螢幕顯示 (Display): 16吋 16:10 OLED WQXGA (2560x1600) 240Hz, 1ms反應時間, 100% DCI-P3 廣色域, 500尼特峰值亮度, 1,000,000:1 對比度
@@ -15,3 +14,7 @@ I/O 介面 (其他): 1x RJ-45 有線網路, 1x HDMI 2.1, 1x Type-A (USB 3.2 Gen2
 音效系統 (Audio): 雙通道 Smart AMP 智能擴大系統, 支援 Dolby Atmos 杜比全景聲
 鍵盤 (Keyboard): 3 區 RGB 背光鍵盤, 1.7mm 鍵程, 支援 N-Key 防鬼鍵與 Icy Touch 冰感操控區
 獨家 AI 功能: 內建 GIGABYTE GiMATE 智慧 AI 夥伴, 具備實體熱鍵「Press and Speak」支援語音指令
+### 【型號專屬差異：顯示晶片補丁】
+- 【型號 BZH 專屬規格】：搭載 NVIDIA® GeForce RTX™ 5090 顯示卡，顯示記憶體 24GB GDDR7，功耗 175W，AI Boost 時脈 1797 MHz[cite: 1]。
+- 【型號 BYH 專屬規格】：搭載 NVIDIA® GeForce RTX™ 5080 顯示卡，顯示記憶體 16GB GDDR7，功耗 175W，AI Boost 時脈 1902 MHz[cite: 1]。
+- 【型號 BXH 專屬規格】：搭載 NVIDIA® GeForce RTX™ 5070 Ti 顯示卡，顯示記憶體 12GB GDDR7，功耗 140W，AI Boost 時脈 1962 MHz[cite: 1]。
