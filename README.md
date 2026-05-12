@@ -93,7 +93,7 @@ uv sync
 ~~~
 *(內含 `nvidia-ml-py` 用於精準監控 VRAM 佔用[cite: 1])*
 
-### Step 3: 下載核心模型
+### Step 3: 下載核心模型(連結:https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/blob/62a8d092b0a1047016f3edbd0fde387598727aa5/qwen2.5-1.5b-instruct-q4_k_m.gguf)
 請在專案根目錄建立 `models` 資料夾，並將 `qwen2.5-1.5b-instruct-q4_k_m.gguf` 置入其中。
 
 ~~~text
