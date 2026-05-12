@@ -32,7 +32,7 @@ with open("specs.txt", "r", encoding="utf-8") as f:
 
 doc_embeddings = embedder.encode(chunks)
 
-def search_vectors(query: str, top_k: int = 3):
+def search_vectors(query: str, top_k: int = 7):
     """純 Numpy 實作的 Cosine Similarity 檢索"""
     query_emb = embedder.encode([query])[0]
     dot_product = np.dot(doc_embeddings, query_emb)
@@ -71,6 +71,7 @@ def ask_assistant(user_query: str):
 1. 你「只能」依據下方的【規格資訊】回答問題。
 2. 如果使用者的問題在【規格資訊】中找不到明確對應的字眼，你「必須」完全輸出這句話：「根據目前提供的規格表，沒有提到這項資訊。」
 3. 嚴禁猜測、嚴禁補充規格表外的事實、嚴禁說謊。
+4. 中文用繁體中文回答，英文用英文回答。
 
 【規格資訊】
 {context_str}<|im_end|>
