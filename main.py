@@ -61,17 +61,18 @@ def ask_assistant(user_query: str):
     # 檢索
     retrieved_info = search_vectors(user_query)
     context_str = "\n".join(retrieved_info)
-    print(f"(內部檢索到的參考資訊: \n{context_str})\n")
+    #print(f"(內部檢索到的參考資訊: \n{context_str})\n")
     print("-" * 40)
     
     # 防幻覺版 Prompt
     prompt = f"""<|im_start|>system
-你是一個嚴格的 GIGABYTE AORUS 規格查閱機器人。
-【絕對規則】
-1. 你「只能」依據下方的【規格資訊】回答問題。
-2. 如果使用者的問題在【規格資訊】中找不到明確對應的字眼，你「必須」完全輸出這句話：「根據目前提供的規格表，沒有提到這項資訊。」
-3. 嚴禁猜測、嚴禁補充規格表外的事實、嚴禁說謊。
-4. 中文用繁體中文回答，英文用英文回答。
+你是一個專業的 AORUS 規格助手。請依照以下優先級回答問題：
+
+1. 【確認不支援】：若規格明確寫出「不支援」或「非...」，請回答使用者「不支援」。
+2. 【規格存在】：若規格存在，請精確回答。問到GPU或是顯示卡時，如果沒有指定型號，請完全列出 BZH/BYH/BXH規格。
+3. 【逃生出口】：若規格中「完全找不到」正反面線索（例如價格、上市日期、顏色），請「只能」回答：「根據目前提供的規格表，沒有提到這項資訊。」
+
+請統一使用繁體中文或英文回答，不要編造任何數據。
 
 【規格資訊】
 {context_str}<|im_end|>
@@ -114,6 +115,6 @@ def ask_assistant(user_query: str):
 # 4. 測試執行區
 # ==========================================
 if __name__ == "__main__":
-    ask_assistant("這台筆電的 GPU 是哪一張？有幾 GB？")
+    ask_assistant("BZH這台筆電的 GPU 是哪一張？有幾 GB？")
     ask_assistant("Please tell me about the cooling system.") 
     ask_assistant("這台筆電支援觸控螢幕嗎？")
