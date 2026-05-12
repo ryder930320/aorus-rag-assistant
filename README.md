@@ -87,6 +87,8 @@ source .venv/bin/activate
 
 ### Step 2: 安裝相依套件
 ~~~bash
+# 使用windows powershell:
+$env:CMAKE_ARGS="-DGGML_CUDA=on"
 uv sync
 ~~~
 *(內含 `nvidia-ml-py` 用於精準監控 VRAM 佔用[cite: 1])*
